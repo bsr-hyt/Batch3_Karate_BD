@@ -25,7 +25,7 @@ Feature: basic api tests
     Then match header Date == "#present"
 
   @kraft
-  Scenario: basic json body verificaiton with bookstore
+  Scenario: basic json body verification with bookstore
     Given url "https://bookstore.toolsqa.com/BookStore/v1/Books"
     When method get
     Then status 200
